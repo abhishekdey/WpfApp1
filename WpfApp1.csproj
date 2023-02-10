@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="New folder\**" />
+    <EmbeddedResource Remove="New folder\**" />
+    <None Remove="New folder\**" />
+    <Page Remove="New folder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Appq.xaml" />
+  </ItemGroup>
+
+</Project>

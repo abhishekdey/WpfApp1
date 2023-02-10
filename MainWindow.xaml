@@ -1,0 +1,92 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid Width="1000" UseLayoutRounding="False" Margin="0,0,-200,-6">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
+                <GradientStop Color="#F6F6F6"
+                          Offset="0.5" />
+                <GradientStop Color="#FFFFFF"
+                         Offset="0.5" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image Source="https://connectindividual.nfp.com/assets/images/cyber/NFPConnect_logo_black.png" Margin="13,0,710,406" />
+        <Image Source="https://connectindividual.nfp.com/assets/images/cyber/dsLoginBanner.png" Margin="0,106,457,106" />
+        <TextBlock HorizontalAlignment="Left" Margin="586,49,0,0"  TextWrapping="Wrap" Text="LOGIN" VerticalAlignment="Top" FontSize="25" Foreground="#000000" FontWeight="SemiBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="585,90,0,0"  TextWrapping="Wrap" FontSize="16" Foreground="#1A1212" Text="Manage coverages and content, make better choices, and achieve your goals in a seamless, integrated experience." VerticalAlignment="Top" Width="413"/>
+        <TextBlock HorizontalAlignment="Left" Margin="586,175,0,0" TextWrapping="Wrap" Text="Email Address" VerticalAlignment="Top" FontSize="16" Foreground="#000000"/>
+        <TextBlock HorizontalAlignment="Left" Margin="585,250,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" FontSize="16" Foreground="#000000" />
+        <TextBox  Height="40" RenderTransformOrigin="0.5,0.5" Padding="3,8, 3,8" Margin="584,203,10,297" Text="abhishekdey.sdm@gmail.com">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock  HorizontalAlignment="Left" Margin="704,404,0,0" TextWrapping="Wrap" TextDecorations="Underline" Text="Forgot password?" VerticalAlignment="Top" Width="121" Foreground="#FF4F9237"/>
+        <Button x:Name="Login" Content="Login" Height="44px"
+          Click="OnClick3" ClickMode="Release"
+          Margin="582,437,0,59" Width="409"  Padding="3,8,3,8"
+          HorizontalAlignment="Left" Background="#FF4F9237" Foreground="#FFFFFF" FontSize="16px" RenderTransformOrigin="0.5,0.876">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.258"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="585,148,0,0" TextWrapping="Wrap" Text="Don't have an account?" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="19" Width="246" FontSize="16px"  Foreground="#101010" FontWeight="SemiBold">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.234"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock FontSize="16px" HorizontalAlignment="Left"  Margin="760,148,0,0" TextWrapping="Wrap" Text="Register" TextDecorations="Underline" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="22" Width="246"  Foreground="#FF4F9237" FontWeight="Regular">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.234"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="311,491,0,0" TextWrapping="Wrap" Text="Copyright © 2023 NFP Corp. All Rights Reserved." VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="22" Width="271">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="407,510,0,0" TextWrapping="Wrap" TextDecorations="Underline" Text="Privacy Policy" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="18" Width="165" Foreground="#FF4F9237" >
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.413"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox  Height="40" RenderTransformOrigin="0.5,0.5" Padding="3,8,3,8" Margin="584,284,10,216" Text="9009999999">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="704,387,0,0" TextWrapping="Wrap" Text="Trouble logging in?" VerticalAlignment="Top" Width="152" FontFamily="Arial Black"/>
+    </Grid>
+</Window>

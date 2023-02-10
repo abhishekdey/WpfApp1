@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary x:Key="multi">
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="./WpfApp1/MainWindow.xaml"/>
+            <ResourceDictionary Source="./WpfApp1/Register.xaml"/>
+            <ResourceDictionary Source="./WpfApp1/Reset.xaml"/>
+            <ResourceDictionary Source="./WpfApp1/Registration.xaml"/>
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+</ResourceDictionary>

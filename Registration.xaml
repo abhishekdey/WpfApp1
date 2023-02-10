@@ -1,0 +1,122 @@
+﻿<Window x:Class="WpfApp1.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid UseLayoutRounding="False" Margin="0,0,-200,0">
+        <Grid Width="1000" UseLayoutRounding="False" Margin="0,0,-0,0">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
+                    <GradientStop Color="#F6F6F6"
+                          Offset="0.5" />
+                    <GradientStop Color="#FFFFFF"
+                         Offset="0.5" />
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+        <Image Source="https://connectindividual.nfp.com/assets/images/cyber/NFPConnect_logo_black.png" Margin="13,0,710,406" />
+        <Image Source="https://connectindividual.nfp.com/assets/images/cyber/dsLoginBanner.png" Margin="0,106,457,106" />
+        <TextBlock HorizontalAlignment="Left" Margin="620,30,0,0"  TextWrapping="Wrap" Text="Registration" VerticalAlignment="Top" FontSize="25" Foreground="#000000" FontWeight="SemiBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="627,133,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="629,195,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="627,0,0,0" TextWrapping="Wrap" Text="Confirm Password" VerticalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="628,323,0,0" TextWrapping="Wrap" Text="Contact Number" VerticalAlignment="Top" RenderTransformOrigin="0.5,4.762"/>
+        <TextBlock HorizontalAlignment="Left" Margin="673,496,0,0" TextWrapping="Wrap" Text="Allready have an account?" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="19" Width="246"  Foreground="#101010" FontWeight="SemiBold">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.234"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left"  Margin="817,494,0,0" TextWrapping="Wrap" Text="Login" TextDecorations="Underline" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="19" Width="246"  Foreground="#FF4F9237" FontWeight="Regular">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.234"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <TextBox   Width="346" Height="40" RenderTransformOrigin="0.5,0.5" Margin="626,151,28,343"  Padding="3,8,3,8" Text="abhishekdey.sdm@gmail.com" TextChanged="TextBox_TextChanged_4" >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+
+        <TextBox Width="346" Height="40" RenderTransformOrigin="0.499,0.926" Margin="626,342,28,152" Padding="3,8,3,8" Text="abhishekdey.sdm@gmail.co ddddddm" TextChanged="TextBox_TextChanged_4" >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+
+        <TextBox   Width="346" Height="40" RenderTransformOrigin="0.499,0.926" Margin="627,278,27,216" Padding="3,8,3,8" Text="abhishekdey.sdm@gmail.com" TextChanged="TextBox_TextChanged_4" >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+        <TextBox   Width="346" Height="40" RenderTransformOrigin="0.499,0.926" Margin="626,216,28,278" Padding="3,8,3,8" Text="abhishekdey.sdm@gmail.com" TextChanged="TextBox_TextChanged_4" >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+
+        <Button x:Name="Submit1" Content="Continue"  Height="44px"
+          Click="OnClick3" ClickMode="Release"
+          Margin="623,420,0,0" Width="346"
+          HorizontalAlignment="Left"  Background="#FF4F9237" Foreground="#FFFFFF" FontSize="16px" VerticalAlignment="Top"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="330,463,0,0" TextWrapping="Wrap" Text="Copyright © 2023 NFP Corp. All Rights Reserved." VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="24" Width="264">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.177"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left"  Foreground="#FF4F9237"  Margin="436,493,0,0" TextDecorations="Underline" TextWrapping="Wrap" Text="Privacy Policy" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="26" Width="186">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.177"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+    </Grid>
+</Window>

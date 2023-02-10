@@ -1,0 +1,88 @@
+﻿<Window x:Class="WpfApp1.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Width="1000" UseLayoutRounding="False" Margin="0,0,-200,-6">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
+                <GradientStop Color="#F6F6F6"
+                          Offset="0.5" />
+                <GradientStop Color="#FFFFFF"
+                         Offset="0.5" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image Source="https://connectindividual.nfp.com/assets/images/cyber/NFPConnect_logo_black.png" Margin="13,0,710,406" />
+        <Image Source="https://connectindividual.nfp.com/assets/images/cyber/dsLoginBanner.png" Margin="0,106,457,106" />
+        <TextBlock HorizontalAlignment="Left" Margin="641,124,0,0"  TextWrapping="Wrap" Text="Business Code" VerticalAlignment="Top" FontSize="16" Foreground="#000000" FontWeight="SemiBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="640,187,0,191" TextWrapping="Wrap" Text="Please enter the business code provided in the registered email."   Foreground="#000000"  Width="347" FontSize="16" IsEnabled="False" ></TextBlock>
+
+        <Button x:Name="Submit" Content="Submit"  Height="44px"
+          Click="OnClick3" ClickMode="Release"
+       Margin="641,240,0,152" Width="346"
+          HorizontalAlignment="Left"  Background="#FF4F9237" Foreground="#ffffff" FontSize="16px"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="641,87,0,0"  TextWrapping="Wrap" Text="Registration" VerticalAlignment="Top" FontSize="25" Foreground="#000000" FontWeight="SemiBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="638,298,0,0" TextWrapping="Wrap" Text="
+The data reflected in this questionnaire is collected on behalf of NFP, by its
+representatives, It may not be reproduced, physically or electronically, or
+removed from NFP offices. This information is confidential and proprietary
+and may only be received or accessed by individuals expressly
+obligated to maintain its confidentiality." VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="673,401,0,0" TextWrapping="Wrap" Text="Allready have an account?" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="19" Width="246"  Foreground="#101010" FontWeight="SemiBold">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.234"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left"  Margin="817,401,0,0" TextWrapping="Wrap" Text="Login" TextDecorations="Underline" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="19" Width="246"  Foreground="#FF4F9237" FontWeight="Regular">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.234"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="370,393,0,0" TextWrapping="Wrap" Text="Copyright © 2023 NFP Corp. All Rights Reserved." VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="246">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.177"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock Foreground="#FF4F9237" HorizontalAlignment="Left" Margin="440,410,0,0" TextWrapping="Wrap" Text="Privacy Policy" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="19" Width="164">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.413"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox   Width="346" Height="40" RenderTransformOrigin="0.5,0.5" Margin="640,146,11,254"  Padding="3,8,3,8" Text="abhishekdey.sdm@gmail.com" >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+    </Grid>
+</Window>
